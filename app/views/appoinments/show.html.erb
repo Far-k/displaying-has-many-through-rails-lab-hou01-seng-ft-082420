@@ -1,0 +1,9 @@
+
+<p>Appointments of the Patients</p>
+
+<%=@appointment.appointment_datetime%>
+<% patient = @appointment.patient %>
+<% doctor = @appointment.doctor %>
+
+<li><%= patient.name %></li>
+<li><%= doctor.name %></li>
